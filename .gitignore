@@ -1,2 +1,4 @@
 .idea/
 firebase-debug.log
+.DS_Store
+*.map

@@ -1,11 +1,10 @@
-@import "reset";
+@import "normalize";
 
 $break-small-mobile: 320px;
 $break-medium-mobile: 375px;
 $break-large: 1200px;
 
 body {
-  border: 1rem solid #F5A623;
   padding: 2rem;
   @media screen and (max-width: $break-small-mobile) {
     padding: 1rem;
@@ -19,8 +18,9 @@ body {
 }
 
 .intro {
-  margin-top: 48px;
-  font-family: 'Playfair Display', serif;
+  margin-top: 10vh;
+  //font-family: 'Playfair Display', serif;
+  font-family: "Lora", serif;
   font-size: 20px;
   line-height: 1.5;
   opacity: 0.8;
@@ -53,4 +53,38 @@ body {
       padding-right: 1vw;
     }
   }
+}
+
+#top, #bottom, #right, #left {
+  background: #F5A623;
+}
+
+#top {
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+#top, #bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+
+#left, #right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 15px;
 }

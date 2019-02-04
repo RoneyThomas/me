@@ -3,4 +3,4 @@ firebase-debug.log
 .DS_Store
 *.map
 *.cache
-public/sass/static/
+sass/static/

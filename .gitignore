@@ -4,3 +4,4 @@ firebase-debug.log
 *.map
 *.cache
 sass/static/
+public/static/css/

@@ -1,2 +1,7 @@
 .idea/
 firebase-debug.log
+.DS_Store
+*.map
+*.cache
+sass/static/
+public/static/css/

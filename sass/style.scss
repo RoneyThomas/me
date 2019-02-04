@@ -4,6 +4,12 @@ $break-small-mobile: 320px;
 $break-medium-mobile: 375px;
 $break-large: 1200px;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   padding: 2rem;
   @media screen and (max-width: $break-small-mobile) {
@@ -36,7 +42,7 @@ body {
 }
 
 .nav-links {
-  margin-top: 48px;
+  margin-top: 8vh;
   font-family: 'Cousine', monospace;
   text-align: center;
 
@@ -85,18 +91,6 @@ body {
           text-decoration: underline;
         }
       }
-    }
-  }
-
-  a ~ a:not(:last-child) {
-    padding-left: 4vw;
-    padding-right: 4vw;
-  }
-
-  @media screen and (max-width: $break-medium-mobile) {
-    a ~ a:not(:last-child) {
-      padding-left: 1vw;
-      padding-right: 1vw;
     }
   }
 }

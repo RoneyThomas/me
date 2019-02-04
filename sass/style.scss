@@ -40,21 +40,51 @@ body {
   font-family: 'Cousine', monospace;
   text-align: center;
 
-  a {
-    font-size: 16px;
-    text-decoration: none;
-    opacity: 0.9;
+  ul {
+    list-style: none;
 
-    &:nth-child(1) {
-      color: #833AB4;
-    }
+    li {
+      list-style: none;
+      line-height: 1.6;
 
-    &:nth-child(2) {
-      color: #333333;
-    }
+      a {
+        font-size: 16px;
+        text-decoration: none;
+        opacity: 0.8;
+      }
 
-    &:nth-child(3) {
-      color: #0077B5;
+      &:nth-child(1) {
+        a {
+          color: #0077B5;
+        }
+
+        a:hover {
+          opacity: 1;
+          text-decoration: underline;
+        }
+      }
+
+      &:nth-child(2) {
+        a:link {
+          color: #333333;
+        }
+
+        a:hover {
+          opacity: 1;
+          text-decoration: underline;
+        }
+      }
+
+      &:nth-child(3) {
+        a:link {
+          color: #833AB4;
+        }
+
+        a:hover {
+          opacity: 1;
+          text-decoration: underline;
+        }
+      }
     }
   }
 

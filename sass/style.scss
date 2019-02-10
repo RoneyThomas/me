@@ -4,6 +4,8 @@ $break-small-mobile: 320px;
 $break-medium-mobile: 375px;
 $break-large: 1200px;
 
+$a-tags: 'a, a:active, a:hover, a:visited';
+
 * {
   margin: 0;
   padding: 0;
@@ -59,36 +61,26 @@ body {
         opacity: 0.8;
       }
 
-      &:nth-child(1) {
-        a {
-          color: #0077B5;
-        }
+      a:hover {
+        opacity: 1;
+        text-decoration: underline;
+      }
 
-        a:hover {
-          opacity: 1;
-          text-decoration: underline;
+      &:nth-child(1) {
+        #{$a-tags} {
+          color: #0077B5;
         }
       }
 
       &:nth-child(2) {
-        a:link {
+        #{$a-tags} {
           color: #333333;
-        }
-
-        a:hover {
-          opacity: 1;
-          text-decoration: underline;
         }
       }
 
       &:nth-child(3) {
-        a:link {
+        #{$a-tags} {
           color: #833AB4;
-        }
-
-        a:hover {
-          opacity: 1;
-          text-decoration: underline;
         }
       }
     }

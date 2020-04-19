@@ -5,3 +5,5 @@ firebase-debug.log
 *.cache
 sass/static/
 public/static/css/
+node_modules/
+_site/

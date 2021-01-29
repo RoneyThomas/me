@@ -5,6 +5,14 @@ body {
     max-width: 63%;
 }
 
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 14px; 
+        line-height: 1.4; 
+        max-width: 90%;
+    }
+}
+        
 header {
     display: flex;
     align-items: center;

@@ -13,8 +13,6 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
     body {
-        /* background-color: #121212; */
-        /* background-color: #0d1117; */
         background-color: #050505;
     }
 
@@ -40,16 +38,14 @@ body {
 
 @media screen and (max-width: 800px) {
     body {
-        font-size: 14px; 
-        line-height: 1.4; 
-        max-width: 90%;
+        font-size: 16px;
+        max-width: 85%;
     }
 }
         
 header {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 header h1 {
